@@ -1,0 +1,34 @@
+.dados {
+    background: rgb(189, 182, 189);
+}
+
+.container {
+    width: 85%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 80px;
+}
+
+#canvas{
+position: relative;
+margin: auto;
+height: 110vh;
+width: 75vw;
+}
+
+#canvas-two{
+position: relative;
+margin: auto;
+height: 110vh;
+width: 75vw;
+}
+
+#canvas-three{
+position: relative;
+margin: auto;
+height: 110vh;
+width: 75vw;
+}

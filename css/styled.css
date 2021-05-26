@@ -1,0 +1,151 @@
+body{
+font-family: 'Press Start 2P', cursive; 
+background-image: url(https://i.pinimg.com/originals/9a/6b/c1/9a6bc1546f4fdaf49bc511bd15ed3427.jpg);
+color: #00ff00;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+}
+
+label{
+display: table;
+padding: 10px;
+}
+
+.cadastrar{
+height: 30px;
+width: 300px;
+margin: 20px;
+background-color: rgba(255, 250, 250, 0.5);
+}
+
+h2 {
+text-align: center;
+}
+
+.login {
+margin-left: 300px;
+font-size: 20px;
+}
+
+.senha {
+margin-left: 300px; 
+font-size: 20px; 
+}
+
+.container {  
+margin-top: 200px;  
+width: 200px; 
+margin-left: auto;
+margin-right: auto; 
+}
+
+div.area {
+width: 38%;
+margin-left: 200px;
+display: inline-block;
+font-size: 15px;
+}
+
+div.area1 {
+width: 38%;
+display: inline-block;
+font-size: 15px;
+margin-left: 15px;
+}
+
+.container2 { 
+font-size: 15px;
+text-align: center;
+margin: 100px auto;
+width: 50%;
+border: 3px solid rgb(0, 51, 128);
+padding: 50px; 
+}
+
+a {
+color: #00ff00;;
+text-decoration: #160301;
+font-size: 30px;
+text-decoration:none; 
+}
+
+a:hover{
+color: #ff0000;
+}
+
+.btn {
+margin-top: 10px;
+margin-left: 215px;
+background-color: #00ff00; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.btn:hover{
+background-color: #ff0000;
+color: white;
+}
+
+.btn2 {
+margin-top: 10px;
+margin-left: 425px;
+background-color: #00ff00; 
+border: none;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.btn2:hover{
+background-color: #ff0000;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+}
+
+.btnlogin {
+margin-top: 5px;
+margin-left: 0px;
+background-color: #00ff00; 
+border: none;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.btnlogin:hover{
+background-color: #ff0000;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+}
+
+.btncad {
+margin-top: 5px;
+margin-left: 50px;
+background-color: #00ff00; 
+border: none;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.btncad:hover {
+background-color: #ff0000;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+}
