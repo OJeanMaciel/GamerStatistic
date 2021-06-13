@@ -6,6 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../controller/script.js"></script>
     <link rel="stylesheet" href="../css/styled.css">
+
     <script type="text/javascript">
     function formatar_mascara(src, mascara) {
     var campo = src.value.length;
@@ -15,7 +16,8 @@
     src.value += texto.substring(0,1);
     }
     }
-        </script>
+    </script>
+    
     <title>Cadastro</title>
 </head>
 <body>  
@@ -23,15 +25,15 @@
     <div>
         <div class="area">
             <label>Nome:</label> <input class="cadastrar" type="text" id="txtnome">
-            <label>Idade: </label><input class="cadastrar" type="text" id="txtidade" >
+            <label>Senha: </label><input class="cadastrar" type="password" id="txtidade" >
+            <label>E-mail: </label><input class="cadastrar" type="text" id="txtE-mail">
             <label>CEP:</label> <input class="cadastrar" type="text" id="txtCep" maxlength="9" onkeypress="formatar_mascara(this,'#####-###')" >
-            <label>Cidade: </label><input class="cadastrar" type="text" id="txtCidade" readonly=“true”>
         </div>  
         <div class="area1">
+            <label>Cidade: </label><input class="cadastrar" type="text" id="txtCidade" readonly=“true”>
             <label>Estado: </label><input class="cadastrar" type="text" id="txtEstado" readonly=“true”>
             <label>Bairro: </label><input class="cadastrar" type="text" id="txtBairro" readonly=“true”>
             <label>Rua: </label><input class="cadastrar" type="text" id="txtRua" readonly=“true”>
-            <label>E-mail: </label><input class="cadastrar" type="text" id="txtE-mail">
         </div>
 
     </div>

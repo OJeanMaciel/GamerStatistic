@@ -4,25 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../controller/script.js"></script>
+    <script src="../controller/login.php"></script>
     <link rel="stylesheet" href="../css/styled.css">
     <title>Tela Login</title>
 </head>
 <body> 
-    <form>
+    <script>
+            function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                if (response.status === 'connected') {
+                testAPI();  
+                } else {
+                document.getElementById('status').innerHTML = 'Please log ' +
+                    'into this webpage.';
+                }
+            }
+            
+            function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+                });
+            }
+            
+            window.fbAsyncInit = function() {
+                FB.init({
+                appId      : '854873945449043',
+                xfbml      : true,
+                version    : 'v10.0'
+                });
+                FB.AppEvents.logPageView();
+            };
+
+            function testAPI() {
+                FB.api('/me', function(response) {
+                window.location.replace('../view/dados.html')
+                document.getElementById('status').innerHTML =
+                    'Obrigado por Logar, ' + response.name + '!';
+                });
+            }        
+      </script>
+            
+      <div id="status">
+      </div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      
+    <form method="POST" action="">
         <div class="container2">
             <h2>Tela de Login</h2>
             <div >
-                <label class="login">Login:</label>
+                <label class="login" id="nome">Login:</label>
                 <input class="cadastrar" type="text" id="user"> 
             </div>
             <div>
-                <label class="senha">Senha:</label>            
+                <label class="senha" id="senha">Senha:</label>
                 <input class="cadastrar" type="password" id="password" > 
             </div>
-
+            
             <input class="btnlogin" type="submit" value="Login">
             <a  class="btncad" href="./cadastro.html">Cadastre-se</a>
+
+            <br><br><br>
+            
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0&appId=854873945449043&autoLogAppEvents=1" nonce="YmyK0m7m"></script>
+            <fb:login-button data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" scope="public_profile,email" onlogin="checkLoginState();">
+            </fb:login-button>
         </div>
     </form>
 </body>

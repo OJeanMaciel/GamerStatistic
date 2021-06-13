@@ -40,7 +40,6 @@ var myChart = new Chart(ctx, {
         legend: {
             labels: {
                 fontColor: '#f3b49f',
-                // This more specific font property overrides the global property
                 font: {
                     size: 14,
                 }
@@ -65,7 +64,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: name,
         datasets: [{
-            label: 'Top 20 jogos mais vendidos no NA!',
+            label: 'Top 20 jogos mais vendidos no America do Norte!',
             data: NA_Sales,
             fontColor: 'red',
             backgroundColor: 'green',
@@ -76,7 +75,6 @@ var myChart = new Chart(ctx, {
     options: { plugins: {
         legend: {
             labels: {
-                // This more specific font property overrides the global property
                 font: {
                     size: 14
                 }
@@ -101,7 +99,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: name,
         datasets: [{
-            label: 'Top 20 jogos mais vendidos no NA!',
+            label: 'Top 20 jogos mais vendidos no America do Norte!',
             data: NA_Sales,
             fontColor: 'black',
             backgroundColor: 'red',
