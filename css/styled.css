@@ -114,6 +114,28 @@ text-shadow: 0.1em 0.1em 0.05em  #160301;
 transition: 1s;
 }
 
+.btn3 {
+margin-top: 10px;
+margin-left: 675px;
+background-color: #00ff00; 
+border: none;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 10px;
+}
+
+.btn3:hover{
+background-color: #ff0000;
+color: white;
+text-shadow: 0.1em 0.1em 0.05em  #160301;
+transition: 1s;
+} 
+
 .btnlogin {
 margin-top: 5px;
 margin-left: 0px;

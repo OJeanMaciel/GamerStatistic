@@ -14,9 +14,9 @@
 
     <div class="barra">
         <nav>
-            <a href="../view/login.html"><div class="link">Login</div></a>
-            <a href="../view/cadastro.html"><div class="link">Cadastro</div></a>
-            <a href="../view/sobre.html"><div class="link">Sobre</div></a>
+            <a href="../view/login.php"><div class="link">Login</div></a>
+            <a href="../view/cadastro.php"><div class="link">Cadastro</div></a>
+            <a href="../view/sobre.php"><div class="link">Sobre</div></a>
         </nav>
     </div>
 
