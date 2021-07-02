@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../controller/script.js"></script>
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="./css/home.css">
     <title>Home Page</title>
 </head>
 <body> 
     <input type="checkbox" id="check">
-    <label id="icone" for="check"><img src="../css/image/icone.png"></label>
+    <label id="icone" for="check"><img src="./css/image/icone.png"></label>
 
     <div class="barra">
         <nav>
-            <a href="../view/login.php"><div class="link">Login</div></a>
-            <a href="../view/cadastro.php"><div class="link">Cadastro</div></a>
-            <a href="../view/sobre.php"><div class="link">Sobre</div></a>
+            <a href="./view/login.php"><div class="link">Login</div></a>
+            <a href="./view/cadastro.php"><div class="link">Cadastro</div></a>
+            <a href="./view/sobre.php"><div class="link">Sobre</div></a>
         </nav>
     </div>
 

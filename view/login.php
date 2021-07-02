@@ -1,7 +1,6 @@
 <?php
     session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -42,9 +41,9 @@
         
         function testAPI() {
             FB.api('/me', function(response) {
-                window.location.replace('../view/dados.php')
                 document.getElementById('status').innerHTML =
                 'Obrigado por Logar, ' + response.name + '!';
+                window.location.replace('../view/dados.php')
             });
             }        
             </script>
@@ -72,14 +71,16 @@
             </div>
             
             <input class="btnlogin" name="btnLogin" type="submit" value="Login">
-            <a  class="btncad" href="./cadastro.php">Cadastre-se</a>
+            <a  class="btncad" href="../view/cadastro.php">Cadastre-se</a>
             
             <br><br><br>
             
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0&appId=854873945449043&autoLogAppEvents=1" nonce="YmyK0m7m"></script>
-            <fb:login-button data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" scope="public_profile,email" onlogin="checkLoginState();">
-                </fb:login-button>
+            
+            <fb:login-button name="btnFacebook" data-width="" data-size="large" data-button-type="continue_with" 
+            data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" 
+            scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
             </div>
         </form>
     </body>

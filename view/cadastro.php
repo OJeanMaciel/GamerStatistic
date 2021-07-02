@@ -49,7 +49,7 @@ include_once('../bd/conexao.php');
 
     </div>
     
-    <a class="btn" href="./login.php">Voltar</a>   
+    <a class="btn" href="../view/login.php">Voltar</a>   
     <input class="btn2" type="submit" value="Cadastrar">
 
 </form>   

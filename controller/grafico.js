@@ -93,47 +93,5 @@ var myChart = new Chart(ctx, {
     }
 });
 
-var ctx = document.getElementById('canvas-three').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: name,
-        datasets: [{
-            label: 'Top 20 jogos mais vendidos no America do Norte!',
-            data: NA_Sales,
-            fontColor: 'black',
-            backgroundColor: 'red',
-            borderColor: 'red',
-            borderWidth: 4
-        },
-        {
-            label: 'Top 20 jogos mais vendidos na Europa!',
-            data: EU_Sales,
-            fontColor: 'black',
-            backgroundColor: 'blue',
-            borderColor: 'blue',
-            borderWidth: 4
-        }]
-    },
-    options: { plugins: {
-        legend: {         
-            labels: {
-                font: {
-                    size: 14
-                }
-            }
-        }},
-        elements:{
-            line:{
-                tension:0          
-            }
-        },
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
     }
 }

@@ -40,7 +40,7 @@
                             </p>                            
                     </div>
                 </div>                
-            <a  class="btn" href="./index.php">Home</a>
+            <a  class="btn" href="../index.php">Home</a>
             </div>
         </section>
     </body>
