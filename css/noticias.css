@@ -1,0 +1,12 @@
+.tweet-noticias{
+    background-image: url(https://corporativo.sp.senac.br/wp-content/uploads/2018/10/game-over.jpg);
+    background-repeat: repeat;
+}
+.noticias {
+    width: 750px;
+    margin-left: 350px;
+}
+
+.conteudo-page{
+    margin-top: 50px;
+}

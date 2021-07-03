@@ -27,7 +27,7 @@ include_once('../bd/conexao.php');
             <canvas id="canvas-three"></canvas>
         </div>
     </div>   
-    <a  class="btn" href="../index.php">Voltar</a>
+    <a  class="btn" href="../view/page.php">Voltar</a>
     <a class="btn3" href="../controller/sair.php">Sair</a> 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.min.js"></script>
     <script type="text/javascript" src="../controller/grafico.js"></script>

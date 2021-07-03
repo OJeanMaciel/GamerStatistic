@@ -43,7 +43,7 @@
             FB.api('/me', function(response) {
                 document.getElementById('status').innerHTML =
                 'Obrigado por Logar, ' + response.name + '!';
-                window.location.replace('../view/dados.php')
+                window.location.replace('../view/page.php')
             });
             }        
             </script>
@@ -63,7 +63,7 @@
                 ?>
             <div >
                 <label class="login" id="nome">Login:</label>
-                <input class="cadastrar" type="text" name="usuario"> 
+                <input class="cadastrar" type="text" name="usuario" placeholder="Digite seu E-mail"> 
             </div>
             <div>
                 <label class="senha" id="senha">Senha:</label>
@@ -71,7 +71,7 @@
             </div>
             
             <input class="btnlogin" name="btnLogin" type="submit" value="Login">
-            <a  class="btncad" href="../view/cadastro.php">Cadastre-se</a>
+            <a  class="btncad" href="../view/page.php">Cadastre-se</a>
             
             <br><br><br>
             

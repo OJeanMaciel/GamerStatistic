@@ -1,3 +1,7 @@
+<?php 
+session_start();
+include_once('../bd/conexao.php');
+?>
 <!Doctype html>
 <html lang="pt-br">
     <head>
@@ -39,7 +43,7 @@
                             O principal objetivo do site Gamer Statistic, é servir como uma ferramenta na formulação de estratégias de business e marketing para empresas revendedoras de jogos, onde podem ser tomadas decisões importantes no direcionamento dos esforços de negócio.                                                      
                             </p>                            
                     </div>
-                </div>                
+                </div>
             <a  class="btn" href="../index.php">Home</a>
             </div>
         </section>
