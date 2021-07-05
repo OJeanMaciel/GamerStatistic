@@ -71,7 +71,7 @@
             </div>
             
             <input class="btnlogin" name="btnLogin" type="submit" value="Login">
-            <a  class="btncad" href="../view/page.php">Cadastre-se</a>
+            <a  class="btncad" href="../view/cadastro.php">Cadastre-se</a>
             
             <br><br><br>
             
